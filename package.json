@@ -1,0 +1,30 @@
+{
+  "name": "cse341-contacts",
+  "version": "1.0.0",
+  "description": "Contacts API project for CSE 341",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canalesmejiad/cse341-contacts.git"
+  },
+  "keywords": [],
+  "author": "David Eduardo Canales",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/canalesmejiad/cse341-contacts/issues"
+  },
+  "homepage": "https://github.com/canalesmejiad/cse341-contacts#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
