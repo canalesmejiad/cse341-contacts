@@ -4,6 +4,10 @@ const contactsRoutes = require('./routes/contacts');
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger.json');
 
+// Use the current domain and protocol locally and on Render.
+delete swaggerDocument.host;
+delete swaggerDocument.schemes;
+
 const app = express();
 const port = process.env.PORT || 3000;
 
